@@ -96,7 +96,7 @@ public class Launcher {
      *         {@link #getLevelFactory()} and {@link #getBoardFactory()}.
      */
     protected MapParser getMapParser() {
-        return new MapParser(getLevelFactory(), getBoardFactory());
+            return new MapParser(getLevelFactory(), getBoardFactory());
     }
 
     /**
